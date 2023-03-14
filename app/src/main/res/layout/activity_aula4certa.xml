@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Nome"
+        android:hint="@string/nome"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -30,7 +30,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Telefone"
+        android:hint="@string/telefone"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -45,7 +45,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -69,14 +69,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Prefiro telefone" />
+            android:text="@string/prefiro_telefone" />
 
         <CheckBox
             android:id="@+id/checkEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Prefiro email" />
+            android:text="@string/prefiro_email" />
 
     </LinearLayout>
 
@@ -87,7 +87,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Registrar"
+        android:text="@string/registrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,20 +106,20 @@
             android:id="@+id/radioButtonManhã"
             android:layout_width="124dp"
             android:layout_height="wrap_content"
-            android:text="Manhã" />
+            android:text="@string/manh" />
 
         <RadioButton
             android:id="@+id/radioButtonTarde"
             android:layout_width="126dp"
             android:layout_height="wrap_content"
-            android:text="Tarde" />
+            android:text="@string/tarde" />
 
         <RadioButton
             android:id="@+id/radioButtonNoite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Noite" />
+            android:text="@string/noite" />
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>

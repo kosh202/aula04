@@ -1,11 +1,17 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
 }
 
 android {
     namespace 'com.example.aula04certa'
     compileSdk 33
+
+    //habilita bind automatico
+    viewBinding {
+        enable true
+    }
 
     defaultConfig {
         applicationId "com.example.aula04certa"

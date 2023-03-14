@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aula04certa</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="prefiro_telefone">Prefiro telefone</string>
+    <string name="prefiro_email">Prefiro email</string>
+    <string name="registrar">Registrar</string>
+    <string name="manh">Manhã</string>
+    <string name="tarde">Tarde</string>
+    <string name="noite">Noite</string>
+</resources>

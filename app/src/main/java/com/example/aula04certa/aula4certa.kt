@@ -8,20 +8,13 @@ import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.RadioGroup
 
+
 class aula4certa : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aula4certa)
 
-        fun showMsg(titulo:String, msg:String){
-            AlertDialog.Builder(this)
-                .setTitle(titulo)
-                .setMessage(msg)
-                .setPositiveButton("OK", null)
-                .create()
-                .show()
 
-        }
 
 
         //bind
@@ -69,11 +62,11 @@ class aula4certa : AppCompatActivity() {
                 
                 """.trimMargin()
 
-                showMsg("Sucesso", msg)
+                showMsg("Sucesso", msg, this)
 
             }
             else{
-                showMsg("ERRO", "Preencha todos os campos")
+                showMsg("ERRO", "Preencha todos os campos", this)
             }
         }
 
